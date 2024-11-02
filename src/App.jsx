@@ -14,7 +14,7 @@ function App() {
       alert('Debes aceptar los términos y condiciones');
       return;
     }
-    // Aquí puedes manejar el envío de la cotización como desees.
+    
     alert('Cotización enviada');
     setName('');
     setEmail('');
@@ -25,6 +25,7 @@ function App() {
 
   return (
     <div className="App">
+      <h1>NETO INC</h1>
       <h1>Cotizar producto</h1>
       <p>Obtén tu cotización personalizada en segundos.</p>
       <form onSubmit={handleSubmit}>
